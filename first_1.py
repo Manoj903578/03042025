@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 # This is a simple Flask application that serves a landing page for an e-commerce website.
-# The landing page includes a welcome message and buttons to navigate to the shop and contact pages.
+# The landing page includes a welcome message and buttons to navigate to the shop and contact pages. this is a simple example of how to create a landing page using Flask.
+# Flask is a micro web framework for Python that allows you to build web applications quickly and easily.
 app = Flask(__name__)
 
 @app.route('/')
