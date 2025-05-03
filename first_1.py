@@ -1,5 +1,6 @@
 from flask import Flask, render_template
-
+# This is a simple Flask application that serves a landing page for an e-commerce website.
+# The landing page includes a welcome message and buttons to navigate to the shop and contact pages.
 app = Flask(__name__)
 
 @app.route('/')
